@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    text-decoration: none;
+}
+body
+{
+    border: 1px solid black;
+    height: 2000px;
+  
+
+}
+.About .content
+{
+    background-image: linear-gradient(90deg, rgba(0, 179, 143,0.5),rgba(0, 179, 143,0.5),rgba(0, 179, 143,0.5)),url("images/about-bg.jpg");
+    height: 400px;
+}
+.About .content h2{
+    font-size: 60px;
+    color:#fff;
+    text-align:left;
+    padding-top: 10%;
+    
+}
+.section1
+{
+    display: flex;
+    justify-content: space-around;
+}
+ .About .box1
+{
+    border: none;
+    height: 200%;
+    width: 37%;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 40px;
+    
+}
+.About .box1 p
+{
+   font-size: 17px;
+   padding-top: 3%;
+}
+.box1 .image img
+{
+    height: 450px;
+    width: 100%;
+}
+.About .box2
+{
+    border: none;
+    height: 150%;
+    width: 37%;
+    margin-top: 5%;
+    margin-right: 10%;
+    font-size: 40px;
+    display: block;
+}
+img
+{
+    height: 500%;
+    width: 100%;
+}
+.box2 .para
+{
+    /* background-image:linear-gradient(90deg, rgba(32, 67, 142,0.8), rgba(35, 76, 166,0.8), rgba(23, 53, 124,0.8)); */
+    background-color:  #66004d;
+    margin-top: -10px;
+}
+.box2 .para h5
+{
+    padding-top: 5%;
+    color: #20c997;
+    padding-left: 5%;
+}
+.box2 .para p
+{
+    font-size: 17px; 
+    padding-top: 3%;
+    color: #20c997;
+    padding-left: 5%;
+}
+/* .para .btn
+{
+    display: flex;
+    justify-content: space-around;
+} */
+.box2 button
+{
+  font-size: 25px;
+  margin-left: 50%;
+  margin-top: -50%;
+  padding-left: 3%;
+  padding-right: 3%;
+  border: none;
+  height: 40px;
+  margin-bottom: 3%;
+  background-color: white;
+  color: #20c997;
+}
+ 
+.btn a
+{
+    text-decoration: none;
+    color: #07845f;
+}
+.btn a:hover{
+    color: #07845f;
+}
+.box2 button:active{
+    background-color: #20c997;  
+}
+.btn a:active{
+    color: white;
+}
+.text
+{
+    margin-top: 15%;
+}

@@ -1,0 +1,112 @@
+body{
+  font-family: 'Poppins';
+  text-decoration: none;
+}
+.service-item {
+    position: relative;
+    height: 350px;
+    padding: 0 30px;
+    transition: .5s;
+}
+
+.service-item {
+    background-color: #fff; /* White background color */
+    color: #00997a;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1); /* Subtle shadow for all cards */
+    border-radius: 5px; /* Rounded corners */
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+    position: relative; /* Needed for hover effects */
+    height: 350px; /* Re-establish height if overridden */
+    padding: 0 30px; /* Re-establish padding if overridden */
+  }
+  
+  .service-item:hover {
+    transform: translateY(-5px); /* Lift the card slightly on hover */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    background-color: #00997a;
+    color: white;
+  }
+
+  .service-item .service-icon {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary);
+    border-radius: 50%;
+    transform: rotate(-14deg);
+}
+
+.service-item .service-icon i {
+    transform: rotate(15deg);
+    color: #00997a;
+}
+
+.service-item:hover .service-icon i {
+    color: #fff;
+}
+
+.card {
+    background-image: url("./../images/doctor1.jpg");
+    background-size: cover; /* This resizes the image to cover the card area */
+    background-position: center;
+    width: 300px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    margin: 20px;
+  }
+
+  .progress-container {
+    display: grid; /* Enables grid layout */
+    grid-template-columns: repeat(3, 1fr); /* Defines three columns */
+    gap: 5px; /* Optional gap between columns (adjust as needed) */
+  }
+  
+  .progress {
+    background: linear-gradient(to right, #fff 0%, #fff 0%, #ddd 0%); /* Greyish shade for background */
+    
+    height: 10px; /* Adjust height as needed */
+    overflow: hidden; /* Hides overflowing content */
+    width: 75%;
+  }
+  
+  .progress-bar {
+    background-color: #fff; /* White color for progress */
+    width: 20px; /* Adjust width based on your progress */
+  }
+ 
+  .testimonial-text {
+    border-left: none;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 0;
+    background-color: transparent;
+    font-size: 24px;
+    font-style: italic;
+    line-height: 36px;
+    margin-top: 0;
+    font-weight: 500;
+    color: #031b4e;
+}
+
+.reviews .box1 .box2{
+  height:110% ;
+  width: 50%;
+}
+.reviews .box1 img{
+  height: 400px;
+  width: 400px;
+  padding: 10% 2%;
+  margin-left: 20%;
+}
+.reviews .box2 p{
+  font-size: 20px;
+  margin-right: 20%;
+  padding: 10% 2%;
+}
+.reviews .box2 img{
+  height: 10%;
+  width: 20%;
+  margin-top: -15%;
+  margin-left: 1%;
+}

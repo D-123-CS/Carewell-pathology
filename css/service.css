@@ -1,0 +1,352 @@
+
+body{
+  font-family: 'Poppins';
+  text-decoration: none;
+}
+
+/* Navbbar */
+
+/* Custom class for the navbar */
+.custom-navbar {
+  background-color: #f8f9fa; /* Light grey background */
+  text-align: center;
+}
+
+/* Specific styles for the custom navbar */
+.custom-navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1% auto;
+  list-style: none;
+  padding: 0;
+}
+
+.custom-navbar .navbar-brand {
+  margin-right: auto;
+  font-size: larger;
+  color: black;
+}
+
+.custom-navbar .nav-item {
+  margin: 0 15px;
+  font-size: larger;
+}
+
+.custom-navbar .nav-link:active,
+.custom-navbar .nav-link:hover {
+  color: #3368C6;
+  background-color: transparent;
+}
+
+.custom-navbar .nav-link {
+  color: #031b4e;
+  text-decoration: none;
+}
+
+
+
+.custom-button {
+  display: inline-block;
+  /* padding: 10px 20px; */
+  font-size: 18px;
+  /* font-weight: bold;  */
+  color: #19A5A0; /* Text color */
+  background-color: transparent; /* Transparent background */
+  border: 1px solid #19A5A0; /* Outline color */
+  border-radius: 10px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.custom-button:hover {
+  background-color: #19A5A0; /* Fill color on hover */
+  color: white; /* Change text color to white on hover */
+}
+
+.product-container {
+  width: 100%;
+ 
+}
+
+.product-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(8, 20, 13, 0.2);
+}
+
+.product-details {
+  flex: 1;
+  text-align: left;
+}
+
+.product-details h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.product-price {
+  display: flex;
+  align-items: center;
+  text-align: right;
+}
+
+.product-price p {
+  margin: 0 10px 0 0;
+  font-size: 1.2em;
+  /* font-weight: bold; */
+  color: #19A5A0;
+}
+
+.buy-now {
+  background-color: #19A5A0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.buy-now:hover {
+  opacity: 0.8;
+}
+
+/* ---------------------------------------------- */
+.card-button {
+  display: inline-block;
+  width: 100%; /* Set button width to 100% */
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(135deg, #76c9b8 0%, #49aba3 100%); /* Gradient background */
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+  position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.card-button:hover {
+  background-color: #19A5A0;
+  color: white;
+}
+
+.service-item {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing-plan {
+  width: 100%;
+  height: 150px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  clip-path: polygon(0 0, 100% 0, 100% 53%, 49% 100%, 0 53%);
+  margin-bottom: 20px;
+  position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.basic {
+  background-image: linear-gradient(132deg, #19A5A0 0%, #059984 100%);
+  
+}
+
+.premium {
+  background: linear-gradient(to bottom right, #19A5A0, #0D6E6B);
+}
+
+.advanced-male {
+  background: linear-gradient(to right, #19A5A0, #0F4C75);
+}
+
+.advanced-female {
+  background: linear-gradient(to right, #19A5A0, #A1E4E5);
+
+}
+
+.allergy{
+  background: linear-gradient(to right, #19A5A0, #D1E8E2);
+}
+.plan-name {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.plan-price {
+  font-size: 2em;
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    color: white; 
+    font-size: 4em;
+} 
+
+
+.image-container-main {
+  position: relative;
+  height: 400px; /* Set the height of the container */
+  width: 100%; /* Set the width to fill the container */
+  background-image: linear-gradient(90deg, rgba(0, 179, 143,0.5),rgba(0, 179, 143,0.5),rgba(0, 179, 143,0.5)), url("../images/services.jpg");
+  background-size: cover; /* Ensure the background image covers the container */
+  background-position: center; /* Center the background image */
+  text-align: center;
+  color: white; /* Text color */
+}
+
+
+.btn-primary {
+    background-color: #19A5A0; /* Your desired background color */
+    color: #fff; /* Text color within the button */
+}
+
+.service-item {
+  background-color: #fff; /* White background color */
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1); /* Subtle shadow for all cards */
+  border-radius: 5px; /* Rounded corners */
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+  position: relative; /* Needed for hover effects */
+  height: 576px; /* Re-establish height if overridden */
+  width: 300px;
+  align-items: center;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  padding: 0 15px; /* Reduced padding */
+}
+
+/* Hover effect styles */
+.service-item:hover {
+  transform: translateY(-5px); /* Lift the card slightly on hover */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  background-color: #EFF5F9;
+}
+
+:root {
+  --primary: #19A5A0;
+  --secondary: #19A5A0;
+  --dark: #19A5A0;
+}
+
+.service-item .service-icon {
+  width: 150px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary);
+  border-radius: 50%;
+  transform: rotate(-14deg);
+}
+
+.service-item .service-icon i {
+  transform: rotate(15deg);
+}
+
+
+
+.owl-carousel .item {
+  display: flex;
+   justify-content: center; 
+   align-items: stretch; 
+  /* margin-right: 50px;
+  margin-left: 50px; */
+  height: 100%; /* Ensure all cards have the same height */
+}
+
+.owl-carousel .item .service-item {
+  height: 100%;
+  overflow-y: auto; /* Add vertical scrollbar when content exceeds height */
+  padding: 20px; 
+}
+
+/* Optional: Adjust card styles as needed */
+.owl-carousel .item .service-item .pricing-plan {
+  margin-bottom: 20px; /* Adjust margin between pricing plan and content */
+}
+
+.owl-carousel .item .service-item p {
+  margin: 5px 0; 
+}
+
+.owl-carousel .item .service-item .btn {
+  margin-top: 20px; 
+}
+
+.content-scroll {
+  position: absolute;
+  top: 150px; /* Adjust top position according to the height of your pricing plan and padding */
+  bottom: 60px; /* Adjust bottom position according to the height of your "Buy Now" button */
+  left: 0;
+  right: 0;
+  overflow-y: auto; /* Add scrollbar if content exceeds container height */
+}
+
+.content-inner {
+  padding: 10px; /* Add padding to inner content */
+  margin-top: -20px; /* Adjust margin-top to move content below the pricing plan */
+}
+
+.content-scroll {
+  scrollbar-width: thin; /* Reduce the width of the scrollbar */
+  scrollbar-color: #19A5A0 #f1f1f1; /* Scrollbar color and track color */
+}
+
+.image-container1 {
+  position: relative;
+  height: 200px; /* Set the height of the container */
+  width: 100%; /* Set the width to fill the container */
+  background-image: linear-gradient(90deg, rgba(153, 0, 115,0.7),rgba(153, 0, 115,0.7)), url("../images/services.jpg");
+  background-size: cover; /* Ensure the background image covers the container */
+  background-position: center; /* Center the background image */
+  text-align: center;
+  color: white; /* Text color */
+}
+.popover {
+  height: auto;
+  width: auto;
+  border: 1px solid gray;
+  background-image: linear-gradient(90deg, rgba(153, 0, 115,0.8),rgba(153, 0, 115,0.8));
+  color: white;
+  padding: 1%;
+  border: 1px solid #ccc; /* Add border to popover */
+  border-radius: 5px; /* Optional: Add border radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow for depth */
+}
+.icons img{
+  height: 60px;
+  width: 60px;
+  margin-top: 30%;
+}
+ .icons .fa-solid{
+ 
+  margin-top: 60%;
+  color: #bf19c8;
+ } 
